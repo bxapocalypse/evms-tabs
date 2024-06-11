@@ -1,0 +1,68 @@
+.breadcrumbs {
+  padding: 1rem 0;
+  margin: 0;
+  font-size: 0.6rem;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.breadcrumbs li:not(:last-child):after {
+  content: '/';
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+.breadcrumbs a {
+  display: inline-block;
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+.breadcrumbs {
+  padding-top: 10px !important;
+}
+
+.breadcrumb {
+  padding: 12px 0;
+  margin: 0;
+  color: #a0a0a0;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  line-height: 1em;
+  display: flex;
+}
+.breadcrumb-item a {
+  color: #7f7f7f;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+.breadcrumb-item a:active,
+.breadcrumb-item a:focus,
+.breadcrumb-item a:hover {
+  color: #ad491a;
+  text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: '/';
+}
+
+.breadcrumb-item {
+  position: relative;
+}
+
+li.breadcrumb-item::marker {
+  display: none;
+  color: none;
+  position: absolute;
+  left: 100%;
+}

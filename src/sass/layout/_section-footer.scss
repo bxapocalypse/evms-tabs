@@ -1,0 +1,42 @@
+.section-footer {
+  color: #ffffff;
+  margin-top: 1.25em; /* Added 11.19.2021 */
+}
+.contact-us {
+  /*font-size: 1.4em;*/
+  font-size: 25px;
+}
+.section-footer .phone {
+  display: block;
+}
+.section-footer .phone:before {
+  content: 'Phone: ';
+}
+.section-footer .email:before {
+  content: 'Email: ';
+}
+.contact p {
+  margin-bottom: 20px;
+}
+/*.contact {
+    font-size: .9em;
+}*/
+.section-footer a {
+  color: #fff;
+}
+
+.section-footer a:focus,
+.section-footer a:focus-within,
+.section-footer a:hover {
+  color: #c7531e; /* This passes AA accessibility because the footer's font is 20px */
+  text-decoration: underline;
+}
+
+.section-footer .container-fluid {
+  background: #002539 none repeat scroll 0 0;
+  padding: 15px 0;
+  width: 100%;
+}
+p.disclaimer {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,578 @@
+.evms-profile-slider .prev-next--next {
+  right: 0;
+}
+.evms-profile-slider .prev-next--previous {
+  left: 0;
+}
+.icons {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.module .bq p {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.evms-video-btn:active,
+.evms-video-btn:focus,
+.evms-video-btn:hover,
+.video-btn:active,
+.video-btn:focus,
+.video-btn:hover,
+.video-btn-label:hover,
+.evms-video-btn:focus .video-btn-label,
+.evms-video-btn:hover .video-btn-label {
+  color: #05c3de;
+}
+.testimonial__content {
+  z-index: 6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.evms-video-btn,
+.video-btn {
+  background-image: url(https://www.evms.edu/uploads/refresh/play-btn.svg);
+  background-repeat: no-repeat;
+  background-size: 100px 60px;
+  width: 100px;
+  height: 60px;
+  border: 0px;
+}
+.testimonial__position {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.testimonial__watch {
+  margin: auto;
+  max-width: 50%;
+  display: flex;
+  height: 60px;
+}
+.testimonial__watch .vertical-centerer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+.testimonial__watch .vertical-centerer p {
+  margin-bottom: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  padding-left: 0.5em;
+  display: inline;
+}
+.video-btn-label {
+  font-size: 0.9rem;
+  padding-left: 5.5em;
+  color: #ffffff;
+  opacity: 1;
+}
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+.close {
+  position: absolute;
+  right: -55px;
+  top: -10px;
+  z-index: 999;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  opacity: 1;
+}
+.modal-dialog {
+  max-width: 800px;
+  margin: 5.5em auto;
+}
+/* KM added on 6/7/19 to increase line height */
+.modal-header {
+  border-bottom: 0px;
+  line-height: 1.2;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.modal-backdrop {
+  background-color: rgba(0, 37, 57, 0.9);
+  z-index: 9;
+}
+.modal-backdrop.show {
+  opacity: 1;
+}
+.site__header {
+  z-index: 11;
+}
+
+.hero--internal + .main {
+  z-index: initial;
+}
+.close:focus,
+.close:hover {
+  color: #c7531e;
+  text-decoration: none;
+  opacity: 1;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.btn:not(:disabled):not(.disabled).active,
+.btn:not(:disabled):not(.disabled):active {
+  background-image: none;
+}
+.video-full .evms-video-btn,
+.video-full .video-btn {
+  position: absolute;
+  bottom: 40%; /*30px*/
+  left: 30%; /*30px*/
+  min-height: 45px;
+  opacity: 0.7;
+}
+.video-full {
+  margin-bottom: 0;
+  position: relative;
+}
+blockquote.bq {
+  margin: 0rem auto;
+}
+.reference {
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* Puts the video on center again for carousels, especially if they're missing a still/are a Vimeo video - SM 06.11.21 */
+.carousel-item .video-full {
+  height: 315px;
+  width: 560px;
+}
+
+/*responsive*/
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 5px;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  .hero__video-wrapper {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 15.25rem;
+  }
+  .video-full .evms-video-btn,
+  .video-full .video-btn {
+    bottom: 5px;
+    left: 5px;
+  }
+  .evms-video-btn,
+  .video-btn {
+    background-size: 75px auto;
+    background-color: transparent;
+    margin: 5px 5px;
+  }
+  .video-btn-label {
+    padding-left: 4em;
+  }
+  .module {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .module p {
+    margin-top: 15px !important;
+    margin-bottom: 0;
+  }
+  .module h2 {
+    margin-bottom: 15px !important;
+  }
+
+  .site__header .site__logo {
+    margin: 0 0 0 -1em !important;
+  }
+  .evms-video-btn,
+  .video-btn {
+    width: auto;
+    height: auto;
+  }
+  .heading--section {
+    margin-bottom: 15px !important;
+    font-size: 1.5rem;
+  }
+  .directory-search {
+    margin-top: 23px;
+  }
+  blockquote.bq {
+    font-size: 1em;
+    line-height: 1.25;
+    text-align: center;
+  }
+  blockquote.bq footer {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  .close {
+    right: 6px;
+    top: -55px;
+  }
+  .m--t-5 {
+    margin-top: 20px !important;
+  }
+  .hero--internal .hero__foreground {
+    margin-top: -5px !important;
+  }
+
+  .image-with-caption--stacked .image-with-caption__media {
+    margin-bottom: 0px;
+  }
+  .module .image-with-caption__interior p {
+    margin-top: 0px !important;
+    margin-bottom: 0;
+  }
+  .image-with-caption__headline {
+    font-size: 1.1rem;
+  }
+  .evms-profile-slider .prev-next--previous {
+    left: 30%;
+  }
+  .evms-profile-slider .prev-next--next {
+    right: 30%;
+  }
+}
+@media (max-width: 991px) {
+  .image-with-caption {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image-with-caption.link-image {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile-highlight__name {
+    font-size: 1.5rem;
+  }
+  .form--search,
+  .searchbox {
+    position: relative;
+    width: 95%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .close {
+    right: 16px;
+    top: -55px;
+  }
+  .modal-dialog {
+    margin: 2.5em auto;
+  }
+  .evms-profile-slider .prev-next--previous {
+    left: 40%;
+  }
+  .evms-profile-slider .prev-next--next {
+    right: 40%;
+  }
+  .hero__video-wrapper {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial__quote {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 800) {
+  .testimonial__quote {
+    font-size: 1.75rem;
+  }
+  .heading--section::after,
+  .heading--section::before {
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 1px;
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(#1f7f9b),
+      to(#fff)
+    );
+    background: linear-gradient(270deg, #1f7f9b, #fff);
+    margin: 0.6rem 1rem;
+  }
+  .heading--section::after {
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(#fff),
+      to(#1f7f9b)
+    );
+    background: linear-gradient(270deg, #fff, #1f7f9b);
+  }
+}
+@media (max-width: 1199px) {
+  .list--three-column {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .silc-grid {
+    margin-left: 50px;
+  }
+  .silc-grid__col.image-link {
+    width: 30%;
+  }
+}
+@media (min-width: 1400px) {
+  .hero__video-wrapper {
+    padding-bottom: 28rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .hero__video-wrapper {
+    padding-bottom: 38rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .panel__title {
+    font-size: 1.25rem;
+  }
+  .silc-accordion--become-tabs.silc-accordion--vertical
+    .silc-accordion__nav-link {
+    font-size: 1.1rem;
+  }
+  .card-pulse-story {
+    padding: 0 0 0 0;
+    font-size: 1.1rem;
+  }
+}
+.loop-controls {
+  background-size: contain;
+  border: 1px #fff solid;
+  height: 50px;
+  left: 1.75%;
+  opacity: 0.5;
+  position: absolute;
+  top: 245px;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  width: 50px;
+  z-index: 1;
+}
+.loop-controls:focus,
+.loop-controls:hover {
+  box-shadow: 0 0 0 0.2rem rgba(31, 127, 155, 0.25);
+  outline: none;
+  opacity: 0.6;
+}
+@media (min-width: 576px) {
+  .loop-controls {
+    top: 265px;
+  }
+}
+@media (min-width: 768px) {
+  .loop-controls {
+    top: 77%;
+  }
+}
+@media (min-width: 900px) {
+  .loop-controls {
+    top: 76%;
+  }
+}
+
+.loop-controls-play {
+  background: transparent
+    url(//www.evms.edu/media/evms_public/content/style_assets/images/playArrow.svg)
+    no-repeat center;
+}
+
+.loop-controls-pause {
+  background: transparent
+    url(//www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/pauseButton.svg)
+    no-repeat center;
+}
+
+/*New Youtube Content Type*/
+
+.youtube-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0;
+  overflow: hidden;
+  outline: 0;
+  background-color: rgba(0, 37, 57, 0.9);
+  transition: opacity 3s;
+}
+
+.showYt {
+  animation-name: fadeOverlay, moveThisVideo;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  z-index: 1050 !important;
+}
+
+.videoMove {
+  animation-name: moveThisVideo;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveThisVideo {
+  from {
+    transform: translateY(-25px);
+  }
+  to {
+    transform: trnaslateY(0px);
+  }
+}
+
+.youtube-modal-dialog {
+  max-width: 800px;
+  margin: 5.5em auto;
+  position: relative;
+  width: auto;
+  pointer-events: none;
+}
+
+.youtube-modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.youtube-modal-body {
+  position: relative;
+  padding: 0px;
+  flex: 1 1 auto;
+}
+
+.youtube-close:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+button.youtube-close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.youtube-close {
+  position: absolute;
+  right: -55px;
+  top: -10px;
+  z-index: 999;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  opacity: 1;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.video-full .evms-youtube-btn {
+  position: absolute;
+  bottom: 40%;
+  left: 30%;
+  min-height: 45px;
+  opacity: 0.7;
+}
+
+.evms-youtube-btn {
+  background-image: url(//www.evms.edu/media/evms_public/content/style_assets/images/responsiveimages/play-btn.svg);
+  background-repeat: no-repeat;
+  background-size: 100px 60px;
+  width: 100px;
+  height: 60px;
+  border: 0px;
+}
+
+.youtube-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.youtube-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.incentives-vid {
+  width: 500px;
+  height: 315px;
+  margin: 30px 0px;
+}
+
+.vidContainer {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 550px) {
+  .incentives-vid {
+    width: 100%;
+    height: 250px;
+  }
+
+  .vidContainer {
+    width: 100%;
+    height: 100%;
+  }
+}

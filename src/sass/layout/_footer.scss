@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.site-footer {
+  border-top: 1px solid #002539;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.site-logo-footer {
+  width: 117px;
+  height: 50px;
+  text-indent: -999em;
+  display: inline-block;
+}
+
+.address .address-street-address {
+  display: block;
+}
+
+.site-footer {
+  color: #002539;
+}
+
+.site-footer,
+.site-footer .button {
+  font-size: 0.85rem !important;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  text-decoration: none;
+  /*color: #c7531e;*/
+}
+
+.site-footer a:not(.button):not(.site-logo):hover {
+  text-decoration: underline;
+}
+
+.other-info p {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .site-footer a:not(.button):not(.site-logo) {
+    padding: 0.5rem 0;
+    display: block;
+  }
+}
+.site-footer-nav {
+  margin: 1em 0;
+}
+
+@media (max-width: 800px) {
+  .site-footer-nav .silc-grid-col {
+    width: 50%;
+  }
+  .site-footer-nav .silc-grid-col a {
+    display: block;
+    padding: 0.5rem 0.25rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .site-footer-nav {
+    margin: 0;
+    padding-left: 2em;
+  }
+}
+@media (min-width: 768px) {
+  .site__footer__nav {
+    margin: 0;
+  }
+}
+@media (min-width: 992px) {
+  .site__footer__nav .silc-grid__col--6 {
+    width: 33.33333%;
+  }
+}
+@media (min-width: 768px) {
+  .site-footer .site__footer__nav a:not(.button):not(.site-logo) {
+    padding: 0 0 0.5rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .site-footer a:not(.button):not(.site-logo).social-menu-item {
+    padding-top: 0.25rem;
+  }
+}
+.site-footer-nav li,
+.site-footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer-social {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media (min-width: 900px) {
+  .site-footer-social {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.social-menu-item svg {
+  max-width: 24px;
+  max-height: 24px;
+  -webkit-transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
+  fill: #002539;
+}
+
+.social-menu-item:hover svg {
+  fill: #1f7f9b;
+}
+.social-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

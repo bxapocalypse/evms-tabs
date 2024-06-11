@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.page-title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+}
+
+@media print {
+  .page-title {
+    color: #000;
+  }
+}
+
+.page-header {
+  /*margin-top: 84px;*/
+  padding-top: 25px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.page-header-light-blue {
+  background-color: #bae0e5;
+  /*background-color: #05c3de;*/
+}
+
+.page-header-dark-blue {
+  background-color: #002539;
+}
+
+.page-header-rust {
+  background-color: #c7531e;
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: '/';
+  display: inline-block;
+  padding: 0 10px;
+}
+.breadcrumb {
+  padding: 4px 0;
+  margin: 0;
+  font-size: 12px;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.breadcrumb-item {
+  margin-bottom: 15px;
+}
+.breadcrumb-item:first-of-type {
+  padding: 0;
+}
+.page-header-evms-blue {
+  background-color: #1f7f9b;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 768px) {
+  .page-header {
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: auto 100%;
+    color: #fff;
+  }
+  .page-header-dark-blue {
+    background-color: #002539;
+    //   background-image: url(//www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/page-header-dark-blue-evms-lines.svg);
+  }
+  .page-header-light-blue {
+    background-color: #bae0e5;
+    /*background-color: #05c3de;*/
+    //   background-image: url(//www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/page-header-light-blue-evms-lines.svg);
+  }
+  .page-header-rust {
+    background-color: #c7531e;
+    //   background-image: url(//www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/page-header-rust-evms-lines.svg);
+  }
+  .page-header-evms-blue {
+    background-color: #1f7f9b;
+    //   background-image: url(//www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/page-header-evms-blue-evms-lines.svg);
+  }
+}
+@media (min-width: 992px) {
+  .page-title {
+    width: 80%;
+  }
+  .page-title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+  }
+}
