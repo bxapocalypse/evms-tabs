@@ -18,6 +18,7 @@ const Header = () => {
               className="site-nav-give"
               href="https://www.givecampus.com/campaigns/2163/donations/new/"
               target="_blank"
+              rel="noreferrer"
             >
               Give Now
             </a>

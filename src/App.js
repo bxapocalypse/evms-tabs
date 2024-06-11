@@ -39,7 +39,7 @@ function App() {
     )
   }
   // create variables out of each piece of data
-  const { title, desc, dropTitle, dropDesc, vidId, points } = incentives[value]
+  const { dropTitle, dropDesc, vidId, points } = incentives[value]
   return (
     <div className="wrapper">
       <a href="#main-content" className="skip-link">
@@ -301,6 +301,7 @@ function App() {
                   <a
                     href="//www.evms.edu/medical_group/followmyhealth/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Patient Portal
                   </a>
@@ -338,6 +339,7 @@ function App() {
                 <a
                   href="https://www.facebook.com/EVMSedu"
                   target="_blank"
+                  rel="noreferrer"
                   className="social-menu-item"
                 >
                   <span className="screen-reader-text">EVMS Facebook Page</span>
@@ -346,6 +348,7 @@ function App() {
                 <a
                   href="https://twitter.com/EVMSedu"
                   target="_blank"
+                  rel="noreferrer"
                   className="social-menu-item"
                 >
                   <span className="screen-reader-text">EVMS Twitter Page</span>
@@ -358,6 +361,7 @@ function App() {
                 <a
                   href="https://www.instagram.com/evmsedu/"
                   target="_blank"
+                  rel="noreferrer"
                   className="social-menu-item"
                 >
                   <span className="screen-reader-text">
@@ -401,6 +405,7 @@ function App() {
                 <a
                   href="https://www.youtube.com/user/EasternVaMedSchool"
                   target="_blank"
+                  rel="noreferrer"
                   className="social-menu-item"
                 >
                   <span className="screen-reader-text">EVMS Youtube Page</span>
@@ -409,6 +414,7 @@ function App() {
                 <a
                   href="https://www.linkedin.com/edu/eastern-virginia-medical-school-19574"
                   target="_blank"
+                  rel="noreferrer"
                   className="social-menu-item"
                 >
                   <span className="screen-reader-text">EVMS LinkedIn Page</span>
